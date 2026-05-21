@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Fondo púrpura -->
+  <rect width="512" height="512" fill="#c9b5e3"/>
+  
+  <!-- Marco redondeado externo -->
+  <rect x="80" y="80" width="352" height="352" rx="60" fill="#e8dff5"/>
+  
+  <!-- Tarjeta principal blanca -->
+  <rect x="110" y="110" width="292" height="292" rx="30" fill="#f5f0e8"/>
+  
+  <!-- Barra naranja superior (Mis Exámenes) -->
+  <rect x="120" y="125" width="272" height="60" rx="10" fill="#ff9d3e"/>
+  <text x="256" y="165" font-family="Nunito, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">Mis Exámenes</text>
+  
+  <!-- Tarjeta Matemáticas -->
+  <rect x="120" y="200" width="160" height="50" rx="8" fill="#ffb84d"/>
+  <text x="200" y="232" font-family="Nunito, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Matemáticas</text>
+  
+  <rect x="120" y="250" width="160" height="35" rx="6" fill="#ffe8b8"/>
+  <text x="200" y="275" font-family="Nunito, sans-serif" font-size="22" fill="#888888" text-anchor="middle">En 5 días</text>
+  
+  <!-- Calendario azul -->
+  <rect x="295" y="205" width="85" height="85" rx="12" fill="#e3f2fd"/>
+  <rect x="295" y="205" width="85" height="25" rx="12" fill="#5ba3d0"/>
+  <!-- Agujeros del calendario -->
+  <circle cx="315" cy="217" r="5" fill="#e3f2fd"/>
+  <circle cx="365" cy="217" r="5" fill="#e3f2fd"/>
+  <!-- Checkmark -->
+  <text x="337" y="265" font-size="50" fill="#ffc107" text-anchor="middle">✓</text>
+  
+  <!-- Tarjeta Historia -->
+  <rect x="120" y="300" width="160" height="50" rx="8" fill="#4db8a8"/>
+  <text x="200" y="332" font-family="Nunito, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Historia</text>
+  
+  <rect x="120" y="350" width="160" height="35" rx="6" fill="#b3e5db"/>
+  <text x="200" y="375" font-family="Nunito, sans-serif" font-size="22" fill="#888888" text-anchor="middle">En 10 días</text>
+  
+  <!-- Puntos de colores -->
+  <circle cx="220" cy="405" r="12" fill="#ff69b4"/>
+  <circle cx="256" cy="405" r="12" fill="#b19cd9"/>
+  <circle cx="292" cy="405" r="12" fill="#90ee90"/>
+  
+  <!-- Texto "Faltan: 25 días" -->
+  <text x="256" y="450" font-family="Nunito, sans-serif" font-size="28" font-weight="bold" fill="#6c63ff" text-anchor="middle">Faltan: 25 días</text>
+</svg>
